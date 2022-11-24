@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from models.deform_unet_parts import *
-from DeformConv import DeformableConv2d
+from models.DeformConv import DeformableConv2d
 
 # from models.SubpixelNet import SubpixelNet
 class DSuperPointNet_gauss2(torch.nn.Module):
